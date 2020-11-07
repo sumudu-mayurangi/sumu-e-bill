@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> bill calculator </title>
+		<style>
+			body{
+				background-color: pink;
+			}
+			#border{
+				border-radius: 25px;
+				background-color :rgb(255,149,43);
+				width: 500px;
+				height: 150px;
+				padding: 70px;
+				border: 2px solid black;
+				
+			}
+			#aa{
+				color: white;
+				background-color: black;
+				width: 800px;
+				height: 50px;
+				font-family: Arial;
+			}
+			
+			#cl{
+				height:40px;
+				width:80px;
+				font-size:15px;
+				font-weight:bold;
+			}
+			#btn{
+				height:40px;
+				width:150px;
+				font-size:15px;
+				font-weight:bold;
+			}
+
+			
+		</style>
+	</head>
+	<body>
+		
+	
+		<h2 id="aa" align="center"><u> Domestic Electricity Bill Calculator</u> </h2>
+		
+		<div id ="border">
+		<form>
+		
+		
+		<table>
+	<tr>
+		<td><h3> <label> No of units used : <label> </h3></td>
+		<td> <input type="number" id="units" name="units"> kWh </td>
+	
+	</tr>
+	<tr>
+		<td colspan="2" align="right"> <input type="reset" id="cl" value="Clear"> </td>
+	</tr>
+	<tr>
+		<td colspan="2" align="right"> <button type="button" id="btn" onclick="calBill()"> Calculate my Bill </button> </td>
+	</tr>
+	</table>
+		
+		<br>
+		<br>
+		
+		<b> <div id="cal"></div> <b>
+		</div>
+		
+		</form>
+		
+		<script type="text/javascript" src="script.js"></script>
+		
+		<table  cellpadding="50">
+		<tr>
+		<td>  <a href="https://roar.media/english/life/reports/electricity-bill-calculated-analysis"> More information on how my bill is <br> calculated </a> </td>
+		<td> <a href="https://ceb.lk/bill-calculation-commercial/en"> Go to CEB web site </a> </td>
+		</tr>
+		</table>
+		
+		<br>
+		<h3 align="center"> Created By : Sumudu_Mayurangi </h3>
+		
+		
+	</body>
+</html>
+
+
+
